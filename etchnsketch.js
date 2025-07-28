@@ -23,3 +23,18 @@ blue.textContent = "Blue";
 let black = document.createElement("button");
 topcontain.appendChild(black)
 black.textContent = "Black";
+
+
+red.addEventListener('click', function() {
+    grid.style.backgroundColor = "red";
+});
+
+blue.addEventListener('click',)
+
+
+
+grid.addEventListener('mousedown', function() {
+    if mousedown is true: grid.style.backgroundColor = "users choice"
+}
+
+)
