@@ -9,3 +9,17 @@ let x = 0;
             grid.classList.add("grid");
 
     }
+
+let topcontain = document.querySelector(".topcontain");
+
+let red = document.createElement("button");
+topcontain.appendChild(red);
+red.textContent = "Red";
+
+let blue = document.createElement("button");
+topcontain.appendChild(blue);
+blue.textContent = "Blue";
+
+let black = document.createElement("button");
+topcontain.appendChild(black)
+black.textContent = "Black";
