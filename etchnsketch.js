@@ -1,4 +1,5 @@
 let container = document.querySelector(".container");
+
 let x = 0;
 
     while (x < 256) {
@@ -7,4 +8,4 @@ let x = 0;
             container.appendChild(grid);
             grid.classList.add("grid");
 
-}
+    }
