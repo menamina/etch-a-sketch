@@ -3,6 +3,13 @@
     width: 500px;
     height: 500px;
     flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .top {
@@ -14,8 +21,4 @@
 
 .clear {
     margin: auto;
-}
-
-.grid {
-    background-color: antiquewhite;
 }

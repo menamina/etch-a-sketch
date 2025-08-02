@@ -64,5 +64,6 @@ clear.addEventListener('click', clearDaBoard);
 
 function clearDaBoard(event){
         erase = event.target;
+        board.innerHTML = '';
         
 }
