@@ -8,21 +8,26 @@
 </head>
 
 <body>
+    <div class="top">
+    <h1 class="title">etch a sketch</h1>
+    </div>
 
     <div class="flex-container">
-        <div class="title">etch a sketch</div>
          <div class="content">
-          <div class="bord"></div>
           <div class="buttons">
-            <button>black</button>
-            <button>blue</button>
-            <button>red</button>
-            <button>random</button>
+            <label>how big is your grid?</label>
+            <input class="textbox">
+            <button class="submit">Set size</button>
+            <div class="colorWanted">
+            <button class="color">black</button>
+            <button class="color">blue</button>
+            <button class="color">red</button>
+            <button class="color">random</button>
+            </div>
+            <div class="board"></div>
+            <button class="clear">clear</button>
           </div>  
         </div>
-
-        <input type="text" placeholder="Size of border" value="16"> 
-        <button>Set size</button>
 
     </div>
 
